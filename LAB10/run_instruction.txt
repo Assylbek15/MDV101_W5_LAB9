@@ -1,0 +1,3 @@
+rm -rf obj_dir
+verilator --cc --exe --build -j 4 lab10_FSM.v lock_tb.cpp
+./obj_dir/Vlab10_FSM

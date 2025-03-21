@@ -1,0 +1,3 @@
+verilator -Wall --cc --trace --exe alu_tb.cpp alu.v ArithmeticUnit.v LogicUnit.v
+make -C obj_dir -f Valu.mk Valu
+./obj_dir/Valu
